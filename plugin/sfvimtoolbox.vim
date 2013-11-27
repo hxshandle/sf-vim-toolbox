@@ -3,4 +3,9 @@ if !has('python')
   finish
 endif
 
-echo "ok"
+function! ToggleSFToolBox()
+  pyfile 'lib/sftoolbox.py'
+endfunc
+
+command! tsf call ToggleSFToolBox()
+
