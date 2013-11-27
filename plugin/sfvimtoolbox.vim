@@ -7,5 +7,5 @@ function! ToggleSFToolBox()
   pyfile 'lib/sftoolbox.py'
 endfunc
 
-command! tsf call ToggleSFToolBox()
+command! TSF call ToggleSFToolBox()
 
