@@ -4,7 +4,7 @@ if !has('python')
 endif
 
 function! ToggleSFToolBox()
-  pyfile 'lib/sftoolbox.py'
+  pyfile py/sftoolbox.py
 endfunc
 
 command! TSF call ToggleSFToolBox()
